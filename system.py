@@ -1,8 +1,8 @@
-import MySQLdb
+import pymysql
 from time import sleep
 from modules import insert, menu, exit_menu, update, delete_row
 
-db = MySQLdb.connect(
+db = pymysql.connect(
     host="localhost",
     user="root",
     passwd="",

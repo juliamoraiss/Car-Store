@@ -1,7 +1,7 @@
-import MySQLdb
+import pymysql
 from time import sleep
 
-db = MySQLdb.connect(
+db = pymysql.connect(
     host="localhost",
     user="root",
     passwd="",
